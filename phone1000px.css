@@ -1,0 +1,104 @@
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+   margin: -17px;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+    }
+    nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px ;
+        transition: 0.5s;
+    
+    }
+    nav ul li a:hover::after{
+        width: 100%;
+    }
+    .header-text{
+      margin-top: 20%;
+      font-size: 20px;  
+    }
+    .header-text h4{
+      margin-bottom: -279px;
+        margin-top: 20px;;
+        font-family: 'Shrikhand', cursive;
+        margin-left: 34px;
+       
+    }
+    .header-text h4 span{
+        color: #ff004f;
+        font-family: 'Fredoka One', cursive;
+        
+    }
+
+
+    /*-----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.containar{
+width: 291px;
+    overflow: hidden;
+    margin-top: 258px;
+    margin-left: 105px ;
+  }
+  .containar .text{
+    position: relative;
+    color: #ff004f;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .containar .text.first-text{
+    color: #FFF;
+  }
+  .text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    border-left: 2px solid rgb(27, 201, 11);
+    animation: animate 4s steps(12) infinite;
+    font-family: 'Fredoka One', cursive;
+  }
+  @keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+  }
+  
+  
+#msg{
+  color: #61b752;
+  margin-top: -40px;
+  display: block;
+  margin-left: 192px;
+
+}

@@ -1,0 +1,235 @@
+.header-text h1{
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    
+  }
+  nav .fa-solid{
+    display: block;
+    font-size: 25px;
+  }
+  nav ul{
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  
+  }
+  
+  nav ul li{
+  display: block;
+  margin: 25px;
+  }
+  nav ul .fa-solid{
+    position: absolute;
+    top:25px ;
+    left: 25px;
+    cursor: pointer;
+  }
+  .sub-title{
+    font-size: 40px;
+  }
+  .about-col-1, .about-col-2{
+    flex-basis: 100%;
+  }
+  .about-col-1{
+    margin-bottom: 30px;
+  }
+.about-col-2{
+  font-size: 14px;
+}
+.about-col-2 p{
+  font-size: 14px;
+
+
+}
+.tab-links{
+  font-size: 10px;
+  margin-right :14px; 
+}
+.tab-contents ul li{
+  font-size: 15px;
+
+}
+
+.container h2{
+  font-size: 10px;
+ 
+  
+}
+.services-list div{
+  background: #262626;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+  margin-left: -13px;
+}
+
+
+
+.btn.btn2{
+  
+  background: #ff004f;
+  margin-left: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+  
+
+
+#msg{
+  color: #61b752;
+  margin-top: -10px;
+  display: block;
+}
+
+
+.contact-right form{
+  width: 100%;
+  margin-left: 50px;
+ 
+}
+.copyright{
+  font-size: 10px;
+ 
+    width: 100%;
+    text-align: center;
+    padding: 18px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 30px;
+  }
+  
+
+.contact-right
+.contact-left{
+  flex-basis: 100%;
+}
+.contact-left{
+  width: 100%;
+}
+.social-icons{
+  margin-top: 30px;
+  margin-left: 30px;
+}  
+.btn.btn2{
+
+  background: #ff004f;
+  margin-left: 30px;
+margin-top: 40px;}
+.contact-left h1{
+  margin-left: 65px;
+font-size: 40px;
+ display: inline-block};
+  
+
+ 
+ 
+ 
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 60px;
+  width: 60px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: black;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  color: #caff0b;
+}
+
+
+  .btn.btn3{
+
+   
+margin-left: 30px;
+
+  }
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.containar{
+  width: 150px;
+  overflow: hidden;
+  margin-top: 115px;
+  margin-left: 5px ;
+}
+.containar .text{
+  position: relative;
+  color: #ff004f;
+  font-size: 20px;
+  font-weight: 600;
+}
+.containar .text.first-text{
+  color: #FFF;
+}
+.text.sec-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:black;
+  border-left: 2px solid rgb(27, 201, 11);
+  animation: animate 4s steps(12) infinite;
+  font-family: 'Fredoka One', cursive;
+}
+@keyframes animate{
+  40%, 60%{
+      left: calc(100% + 4px);
+  }
+  100%{
+      left: 0%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
